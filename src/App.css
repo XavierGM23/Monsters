@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-variant: small-caps;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #333;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
