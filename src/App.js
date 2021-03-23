@@ -2,7 +2,7 @@ import React , {Component} from 'react';
 import './App.css';
 import {CardList} from './components/card-list/card-list.component';
 import {SearchBox} from './components/search-box/search-box.component'
-
+import {Scroll} from './components/scroll/scroll.component'
 
 class App extends Component {
   constructor() {
@@ -44,8 +44,11 @@ class App extends Component {
 
       />
       
-      {/* CARDLIST COMPONENT */}
-      <CardList monsters={filteredMonsters}/>
+      <Scroll>
+          {/* CARDLIST COMPONENT */}
+          <CardList monsters={filteredMonsters}/>
+      </Scroll>
+      
 
       </div>
     );
